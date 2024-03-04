@@ -1,6 +1,10 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
 .title{
     text-align: center;
-    font-family: sans-serif;
 }
 
 .divider {
@@ -14,8 +18,24 @@
 
 label {
     display: block;
+    margin: 10px;
 }
 
 .inline {
     display: inline;
+}
+
+h1 {
+    text-align: center;
+}
+
+.recipe {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 2px;
+}
+
+.bold {
+    font-weight: 800;
 }
