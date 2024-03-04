@@ -1,0 +1,13 @@
+.title{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.divider {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+}
+
+.medium {
+    height: 5px;
+  }
