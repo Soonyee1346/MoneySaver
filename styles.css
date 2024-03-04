@@ -11,3 +11,11 @@
 .medium {
     height: 5px;
   }
+
+label {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
