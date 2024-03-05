@@ -1,6 +1,7 @@
 * {
     font-family: sans-serif;
     box-sizing: border-box;
+    background-color: rgb(255,255,255);
 }
 
 .title{
@@ -39,3 +40,39 @@ h1 {
 .bold {
     font-weight: 800;
 }
+
+/*.barlogo {
+    object-fit: cover;
+    height: 25x;
+}*/
+
+.header-nav {
+    width: 100%;
+    margin: 0;
+}
+
+.header-nav li {
+    float: left;
+}
+
+.header-nav li, .header-nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #888989;
+    margin:0;
+}
+
+.header-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #888989;
+}
+
+li a:hover {
+    background-color: #111;
+  }
