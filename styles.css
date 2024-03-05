@@ -2,6 +2,9 @@
     font-family: sans-serif;
     box-sizing: border-box;
     background-color: rgb(255,255,255);
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(210, 210, 210);
 }
 
 .title{
@@ -15,7 +18,7 @@
 
 .medium {
     height: 5px;
-  }
+}
 
 label {
     display: block;
@@ -30,7 +33,7 @@ h1 {
     text-align: center;
 }
 
-.recipe {
+.ingList {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -41,10 +44,10 @@ h1 {
     font-weight: 800;
 }
 
-/*.barlogo {
+.barlogo {
     object-fit: cover;
-    height: 25x;
-}*/
+    max-width: 50px;
+}
 
 .header-nav {
     width: 100%;
@@ -55,7 +58,11 @@ h1 {
     float: left;
 }
 
-.header-nav li, .header-nav a {
+.header-nav img {
+    padding: 0;
+}
+
+.header-nav li, .barCat {
     display: block;
     color: white;
     text-align: center;
@@ -73,6 +80,36 @@ h1 {
     background-color: #888989;
 }
 
-li a:hover {
-    background-color: #111;
-  }
+.barCat:hover {
+    background-color: rgb(200,200,200);
+}
+
+.homefoodleft{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    width: 100%;
+}
+
+.homefoodleft img {
+    max-width: 40%;
+    max-height: 40%;
+} 
+
+.homefoodleft span {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    margin: 0;
+}
+
+.homefoodleft h2, .homefoodleft ul{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.homefoodleft h2 {
+    margin-bottom: 5%;
+}
