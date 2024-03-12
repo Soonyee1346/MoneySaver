@@ -94,6 +94,7 @@ h1 {
 .homefoodleft img {
     max-width: 40%;
     max-height: 40%;
+    object-fit: cover;
 } 
 
 .homefoodleft span {
