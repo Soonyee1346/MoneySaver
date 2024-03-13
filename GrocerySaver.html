@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-    <header>
+    <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/home.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Grocery Saver</title>
-    </header>
+        <!--<script src="https://code.jquery.com/jquery-1.10.2.js"></script>-->
+    </head>
     <body>
+        <!--<div id="nav-placeholder"></div>
+        <script>
+            $(function(){
+              $("#nav-placeholder").load("nav.html");
+            });
+        </script>-->
+        
         <nav class="header-nav">
             <ul>
                 <li><a href="GrocerySaver.html" class="barlogo"><img src="images/logo.gif"></a></li>
@@ -19,7 +27,7 @@
             <h1>Most Discounted Meals This Week</h1>
             <div class="homefoodleft">
                 <img src="images/spaghetti.jpeg">
-                <span>
+                <span class="ingredientsright">
                     <h2>Spaghetti</h2>
                     <ul>
                         <li>Spaghetti</li>
@@ -30,7 +38,19 @@
                     </ul>
                 </span>
             </div>
+            <div class="homefoodright">
+                <span class="ingredientsleft">
+                    <h2>Hainanese Chicken Rice</h2>
+                    <ul>
+                        <li>Chicken Breast</li>
+                        <li>Rice</li>
+                        <li>Hainanese Rice Paste</li>
+                        <li>Cucumber</li>
+                        <li>Sweet Soy Sauce</li>
+                    </ul>
+                </span>
+                <img src="images/chickenrice.jpg">
+            </div>
         </main>
     </body>
-
 </html>
