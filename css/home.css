@@ -1,13 +1,9 @@
-.homefoodleft{
-    display: flex;
+.left{
     align-items: left;
     justify-content: left;
-    width: 100%;
 }
 
-.homefoodright{
-    display: flex;
-    width: 100%;
+.right{
     align-items: right;
     justify-content: right;
 }
@@ -15,48 +11,51 @@
 .homefood {
     display: flex;
     width: 100%;
+    margin-top: 2rem;
 }
 
-.homefoodleft img {
+.homefood img {
     max-width: 40%;
     max-height: 40%;
     object-fit: cover;
 } 
 
-.homefoodright img {
-    max-width: 40%;
-    max-height: 40%;
-    object-fit: cover;
-} 
-
-.homefoodleft span {
-    display: flex;
+.homefood span {
+    display: block;
     flex-direction: column;
+    margin: 0 2rem;
+}
+
+.left span {
     align-items: left;
     justify-content: left;
-    margin: 0;
 }
 
-.homefoodright span {
-    display: flex;
-    flex-direction: column;
+.right span {
     align-items: right;
     justify-content: right;
-    margin: 0;
 }
 
-.homefoodleft h2, .homefoodleft ul{
+.homefood h2, .homefood ul {
+    margin: 0;
+    padding: 0;
+}
+
+.homefood h2, .homefood ul{
     text-align: left;
-    margin: 0;
-    padding: 0;
 }
 
-.homefoodright h2, .homefoodright ul{
-    text-align: right;
-    margin: 0;
-    padding: 0;
-}
-
-.homefoodleft h2, .homefoodright h2 {
+.homefood h2 {
     margin-bottom: 5%;
+}
+
+span .ingredient {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+    justify-content: space-between;
+}
+
+.ingredients {
+    width: 50%;
 }
