@@ -1,4 +1,11 @@
-body {
+
+
+
+
+
+
+
+/*body {
     font-family: sans-serif;
     box-sizing: border-box;
     margin-left: 10%;
@@ -89,7 +96,7 @@ h1 {
     background-color: rgb(200,200,200);
 }
 
-/*
+
 TURN THIS INTO A DROP DOWN MENU USING JAVASCRIPT OR WHATEVER
 @media (max-width: 586px){
     .barCat {
