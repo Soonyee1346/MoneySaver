@@ -8,29 +8,61 @@
         <title>Grocery Saver</title>
     </head>
     <body>       
-        <nav class="header-nav">
+        <nav class="nav-bar">
             <ul>
-                <li><a href="GrocerySaver.html" class="barlogo"><img src="images/logo.gif"></a></li>
-                <li><a class="barCat" href="Recipes.html">Recipes</a></li>
-                <li><a class="barCat" href="MakeaRecipe.html">Make a Recipe</a></li>
+                <li class="page"><a href="GrocerySaver.html" class="barlogo barCat"><img src="images/logo.gif"></a></li>
+                <li class="page"><a class="barCat" href="Recipes.html">Recipes</a></li>
+                <li class="page"><a class="barCat" href="MakeaRecipe.html">Make a Recipe</a></li>
             </ul>
         </nav>
         <main>
-            <h1>Most Discounted Meals This Week</h1>
+            <h1 class="bold">Most Discounted Meals This Week</h1>
             <div class="homefood left">
                 <img src="images/spaghetti.jpeg">
-                <span class="ingredients">
-                    <h2>Spaghetti</h2>
-                    <ul>
-                        <span class="ingredient"><li>Pasta</li><span><s>$3.00</s> $2.00</span></span>
-                        <span class="ingredient"><li>Minced Meat</li><span> $5.00</span></span>
-                        <span class="ingredient"><li>Pasta Sauce</li><span> $3.00</span></span>
-                        <span class="ingredient"><li>Garlic</li><span> $2.00</span></span>
-                        <span class="ingredient"><li>Onion</li><span> $2.00</span></span>
-                    </ul>
-                    Total:
+                <span class="ingredients"><h2>Spaghetti</h2>
+                    <table class="priceTable">
+                        <tr>
+                            <th>Ingredients</th>
+                            <th>RRP</th>
+                            <th>Current Price</th>
+                        </tr>
+                        <tr>
+                            <td>Pasta</td>
+                            <td><s>$3.00</s></td>
+                            <td>$2.00</td>
+                        </tr>
+                        <tr>
+                            <td>Minced Meat</td>
+                            <td></td>
+                            <td>$5.00</td>
+                        </tr>
+                        <tr>
+                            <td>Pasta Sauce</td>
+                            <td><s>$4.50</s></td>
+                            <td>$3.00</td>
+                        </tr>
+                        <tr>
+                            <td>Garlic</td>
+                            <td></td>
+                            <td>$2.00</td>
+                        </tr>
+                        <tr>
+                            <td>Onion</td>
+                            <td></td>
+                            <td>$1.50</td>
+                        </tr>
+                        <tr>
+                            <th>Total</th>
+                            <th>$2.50</th>
+                            <th>$13.50</th>
+                        </tr>
+                    </table>
                 </span>
             </div>
+            <div class="homefood right">
+                <img src="images/chickenrice.jpg">
+            </div>
+            <!--
             <div class="homefood right">
                 <span class="ingredients">
                     <h2>Hainanese Chicken Rice</h2>
@@ -44,6 +76,6 @@
                 </span>
                 <img src="images/chickenrice.jpg">
             </div>
-        </main>
+        </main>-->
     </body>
 </html>
