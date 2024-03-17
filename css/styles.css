@@ -6,7 +6,9 @@ body {
 }
 
 .nav-bar {
-    position: sticky;
+    position: fixed;
+    top: 0;
+    width: 80%;
 }
 
 .nav-bar ul {
@@ -15,6 +17,7 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: #616161;
+    max-height: 46px;
 }
   
 .page {

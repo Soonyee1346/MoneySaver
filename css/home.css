@@ -1,3 +1,7 @@
+.topdivider {
+    height: 50px;
+}
+
 h1 {
     text-align: center;
     font-size: 3rem;
@@ -44,64 +48,3 @@ h1 {
 .priceTable td, .priceTable th{
     text-align: left;
 }
-/*.left{
-    align-items: left;
-    justify-content: left;
-}
-
-.right{
-    align-items: right;
-    justify-content: right;
-}
-
-.homefood {
-    display: flex;
-    width: 100%;
-    margin-top: 2rem;
-}
-
-.homefood img {
-    max-width: 40%;
-    max-height: 40%;
-    object-fit: cover;
-} 
-
-.homefood span {
-    display: block;
-    flex-direction: column;
-    margin: 0 2rem;
-}
-
-.left span {
-    align-items: left;
-    justify-content: left;
-}
-
-.right span {
-    align-items: right;
-    justify-content: right;
-}
-
-.homefood h2, .homefood ul {
-    margin: 0;
-    padding: 0;
-}
-
-.homefood h2, .homefood ul{
-    text-align: left;
-}
-
-.homefood h2 {
-    margin-bottom: 5%;
-}
-
-span .ingredient {
-    display: flex;
-    flex-direction: row;
-    margin-left: 0;
-    justify-content: space-between;
-}
-
-.ingredients {
-    width: 50%;
-}*/
