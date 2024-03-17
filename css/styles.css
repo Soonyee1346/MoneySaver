@@ -5,6 +5,10 @@ body {
     background-color: rgb(210, 210, 210);
 }
 
+.topdivider {
+    height: 50px;
+}
+
 .nav-bar {
     position: fixed;
     top: 0;
