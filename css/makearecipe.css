@@ -6,7 +6,7 @@ title {
     font-size: 3rem;
 }
 
-label, input {
+label, input, button {
     display: block;
     margin-bottom: 1.5rem;
 }
