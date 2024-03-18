@@ -7,13 +7,15 @@
         <title>Grocery Saver</title>
     </head>
     <body>
-        <nav class="nav-bar">
-            <ul>
-                <li class="page"><a href="index.html" class="barlogo barCat"><img src="images/logo.gif"></a></li>
-                <li class="page"><a class="barCat" href="Recipes.html">Recipes</a></li>
-                <li class="page"><a class="barCat" href="MakeaRecipe.html">Make a Recipe</a></li>
-            </ul>
-        </nav>
+        <div id="nav-placeholder">
+
+        </div>
+        
+        <script>
+        $(function(){
+          $("#nav-placeholder").load("nav.html");
+        });
+        </script>
         <main>
             <div class="topdivider"></div>
             <h1 class="title bold">All Recipes</h1>
