@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+}
+
+title {
+    font-size: 3rem;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 1.5rem;
+}
