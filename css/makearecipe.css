@@ -10,3 +10,11 @@ label, input {
     display: block;
     margin-bottom: 1.5rem;
 }
+
+.formHead {
+    font-weight: 800;
+}
+
+.add {
+    font-size: 24px;
+}
