@@ -19,7 +19,7 @@ body {
     display: none;
 }
 
-.nav-bar ul {
+.nav-bar ul, nav-bar select {
     list-style-type: none;
     margin: 0;
     padding: 0;
