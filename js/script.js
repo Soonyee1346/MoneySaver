@@ -4,4 +4,4 @@ function navBar() {
 
 function addIngredient() {
     $("#invisibleIng").load("addIng.html");
-}
+};
