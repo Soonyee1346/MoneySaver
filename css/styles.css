@@ -15,11 +15,7 @@ body {
     width: 80%;
 }
 
-.nav-bar select {
-    display: none;
-}
-
-.nav-bar ul, nav-bar select {
+.nav-bar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -56,6 +52,4 @@ body {
 }
 
 @media (max-width: 365px) {
-    .nav-bar ul     { display: none; }
-    .nav-bar select { display: inline-block; }
 }
