@@ -1,5 +1,5 @@
 function navBar() {
-    $("#nav-placeholder").load("/nav.html");
+    $("#nav-placeholder").load("/MoneySaver/nav.html");
 };
 
 function addIngredient() {
