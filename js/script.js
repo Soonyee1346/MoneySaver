@@ -3,5 +3,6 @@ function navBar() {
 };
 
 function addIngredient() {
-    $("#invisibleIng").after('<input class="form Input" placeholder="Ingredient"/><div id="invisibleIng"></div>');
+    $("#invisible").after('<input class="form Input" placeholder="Ingredient"/><div id="invisibleIng"></div>');
+    preventDefault();
 };
