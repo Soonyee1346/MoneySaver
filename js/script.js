@@ -3,5 +3,5 @@ function navBar() {
 };
 
 function addIngredient() {
-    $("#invisibleIng").load("addIng.html");
+    $("#invisibleIng").after("addIng.html");
 };
